@@ -13,6 +13,8 @@ CREATE TABLE roles (
   title VARCHAR(30) NOT NULL,
   salary DECIMAL NOT NULL,
   department_id INT NOT NULL,
+  INDEX dep_ind (department_id),
+  CONSTRAINT fk_department
   FOREIGN KEY (department_id)
   REFERENCES departments(id)
 );
@@ -22,15 +24,14 @@ CREATE TABLE employees (
   first_name VARCHAR(30) NOT NULL,
   last_name VARCHAR(30) NOT NULL,
   role_id INT NOT NULL,
+  INDEX role_ind (role_id),
+  CONSTRAINT fk_role
   FOREIGN KEY (role_id)
   REFERENCES roles(id),
   manager_id INT,
+  CONSTRAINT fk_manager
   FOREIGN KEY (manager_id)
   REFERENCES employees(id)
 );
 
--- UPDATE employees (
--- SET 
--- WHERE
--- );
 
