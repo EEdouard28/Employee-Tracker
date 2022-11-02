@@ -19,6 +19,7 @@ We've created a a command-line application in order for companies to manage it's
   This application requires Node.js, Inquirer, and mysql2 installation packages. Please run your npm installation in order to view the MySQL database.
 
   ## Screenshot
+<img width="1017" alt="Screen Shot 2022-11-02 at 7 55 19 PM" src="https://user-images.githubusercontent.com/111817163/199623960-89635608-859d-42b8-a83e-86b059a623b6.png">
 
   ## Usage
 
