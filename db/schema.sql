@@ -29,3 +29,8 @@ CREATE TABLE employees (
   REFERENCES employees(id)
 );
 
+-- UPDATE employees (
+-- SET 
+-- WHERE
+-- );
+
