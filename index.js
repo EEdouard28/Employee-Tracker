@@ -126,12 +126,12 @@ function addEmployee() {
           choices: res.map(role => role.title),
           message: "Select a role for the employee"
         },
-        {
-            name: "managerId",
-            type: "list",
-            choices: [1, 2],
-            message: "Provide manager ID"
-          }
+        // {
+        //     name: "managerId",
+        //     type: "list",
+        //     choices: [1, 2,],
+        //     message: "Provide manager ID"
+        //   }
       ]).then(function (answers) {
         const selectedRole = res.find(role => role.title === answers.roleId);
         //Object into employees table

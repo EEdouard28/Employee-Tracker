@@ -2,6 +2,8 @@
 
 ## Description
 
+We've created a a command-line application in order for companies to manage it's employee database using Node.js, Inquirer, and MySQL.
+
 ## Table of Contents
 
 - [Description](#description)
@@ -14,9 +16,13 @@
 
   ## Installation
 
+  This application requires Node.js, Inquirer, and mysql2 installation packages. Please run your npm installation in order to view the MySQL database.
+
   ## Screenshot
 
   ## Usage
+
+  View, add, and edit employees, roles, departments, and managers using MySql via a organized database.
 
   ## Credits
 
@@ -32,3 +38,5 @@
   none
 
   ## Tests
+
+  N/A
