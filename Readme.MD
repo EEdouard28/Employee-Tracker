@@ -40,4 +40,4 @@ We've created a a command-line application in order for companies to manage it's
 
   ## Tests
 
-  N/A
+Walkthrough video provided in this link: https://www.youtube.com/watch?v=I0CzcuiPKSo
